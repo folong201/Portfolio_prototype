@@ -1,0 +1,129 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	text-decoration: none;
+	list-style: none;
+}
+
+body{
+	font-family: monospace;
+} 
+
+nav{
+	height: auto;
+	width: auto;
+	background-color: #34495e;
+	justify-content: space-between;
+} 
+
+label.logo{
+	font-size: 35px;
+	font-weight: bold;
+	color: white;
+	padding:05px;
+	line-height: 80px;
+}
+
+nav ul{
+	
+	margin-right: 40px;
+	align-self: center;
+}
+
+nav li{
+	display: inline-block;
+	margin: 0px;
+	line-height: 80px;
+}
+
+nav a{
+	color: black;
+	font-size: 18px;
+	text-transform: uppercase;
+	border: 1 solid transparent;
+	padding: 7px;
+	border-radius: 3px;
+} 
+
+
+.moi{
+	display: flex;
+	word-wrap: wrap;
+	border: 2px solid black;
+	margin-left: 4% ;
+	margin-right: 4%;
+
+}
+.image{
+	margin: 3%;
+	padding: 2px;
+	border: 10px orange solid;
+}
+.meme{
+	text-decoration: underline;
+}
+
+.bio{
+	font-style: italic;
+	margin: 5%;
+	width: 300px;
+	height: 300px;
+}
+
+a.active,a:hover{
+	border: 1px solid white;
+	transition: .5s;
+}
+
+@media (max-width: 360px)
+{
+	nav{
+		flex-wrap: wrap;
+		justify-content: left;
+	}
+	ul{
+		float: none;
+	}
+	.moi{
+		display: none;
+		word-wrap: wrap;
+
+	}
+}
+
+@media (min-width: 800px)
+{
+	ul{
+		float: right;
+	}
+}
+
+@media(max-width: 1000px)
+{
+	.moi{
+		display: inline-block;
+		width: 550px;
+		height: 550px;
+	}
+
+}
+
+ffnav{
+		justify-content: left;
+		height: 10%;
+	}
+	fful{
+		position: absolute;
+		top: 2%;
+		right: 5px;
+	}
+
+	#reseaux{
+		background-color:darkgray;
+		color: white;
+	}
+
+
+	.colo{
+		color: white;
+	}
